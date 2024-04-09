@@ -12,7 +12,6 @@ matricula = "552200"
 -- função que determine se duas 
 -- tuplas de inteiros  são múltiplas.
 isMult :: (Int, Int) -> (Int, Int) -> Bool
-isMult (u1, u2) (v1, v2) = u1 `mod` v1 == 0 || u1 `mod` v2 == 0 || u2 `mod` v1 == 0 || u2 `mod` v2 == 0 || v1 `mod` u1 == 0 || v1 `mod` u2 == 0 || v2 `mod` u1 == 0 || v2 `mod` u2 == 0
 
    
 
